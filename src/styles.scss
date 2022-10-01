@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
+
 $primary-color: white;
 $bg: black;
 h1 {
   color: $primary-color;
   background-color: $bg;
 }
-div{
-  color:red;
+body{
+  margin: 0;
+  font-family:'Sen', sans-serif; 
+}
+// Обнуление
+@import "nullstyle.scss";
+
+.top__panel{
+background-color: #232536;
+position: absolute;
+width: 1440px;
+margin: 0 auto;
+height: 80px;
+color: white;
+}
+
+.mainblock__img{
+background-image: url('../img/mainblock/bg.png');
+position: absolute;
+z-index: 1;
+width: 1440px;
+height: 720px;
+right: 0px;
+top: 80px;
+}
+.mainblock__content{
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 150px;
+}
+
+.mainblock__title{
+width: 222px;
+height: 20px;
+right: 1137px;
+top: 208px;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: white;
+}
+.menu__list{
 }
