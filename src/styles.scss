@@ -37,20 +37,43 @@ top: 80px;
   z-index: 2;
   display: flex;
   justify-content: left;
-  margin-bottom: 150px;
 }
 
 .mainblock__title{
-width: 222px;
-height: 20px;
-right: 1137px;
-top: 208px;
-font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 letter-spacing: 3px;
 text-transform: uppercase;
 color: white;
 }
-.menu__list{
+.mainblock_subtitle{
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -2px;
+color: white;
+}
+.author_and_date{
+  font-size: 16px;
+  color: white;
+  line-height: 28px;
+}
+.about_the_project{
+  font-size: 16px;
+  color: white;
+  line-height: 28px;
+}
+.mainblock__footer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 48px;
+  gap: 12px;
+  position: absolute;
+  width: 204px;
+  height: 56px;
+  left: 80px;
+  top: 552px;
+  background: #FFD050;
+  font-size: 18px;
+
 }
