@@ -11,8 +11,12 @@ h1 {
 body {
   margin: 0;
   font-family: 'Sen', sans-serif;
-  width: 1440px;
+  width: 100vh;
   height: 5996px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center
 }
 
 // Обнуление
@@ -20,9 +24,9 @@ body {
 
 .navbar {
   background-color: #232536;
-  position: absolute;
   width: 1440px;
   height: 80px;
+  padding: 10px 80px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -91,17 +95,11 @@ body {
 
 .mainblock__img {
   background-image: url('../img/mainblock/bg.png');
-  position: absolute;
-  z-index: 1;
   width: 1440px;
   height: 720px;
-  right: 0px;
-  top: 80px;
 }
 
 .mainblock__content {
-  position: absolute;
-  z-index: 2;
   display: flex;
   justify-content: space-between;
   width: 804px;
@@ -181,5 +179,5 @@ body {
 }
 
 .featured_posts {
- 
+
 }
