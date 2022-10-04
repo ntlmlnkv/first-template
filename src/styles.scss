@@ -1,79 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 
 $primary-color: white;
 $bg: black;
+
 h1 {
   color: $primary-color;
   background-color: $bg;
 }
-body{
+
+body {
   margin: 0;
-  font-family:'Sen', sans-serif; 
+  font-family: 'Sen', sans-serif;
+  width: 1440px;
+  height: 5996px;
 }
+
 // Обнуление
 @import "nullstyle.scss";
 
-.top__panel{
-background-color: #232536;
-position: absolute;
-width: 1440px;
-margin: 0 auto;
-height: 80px;
-color: white;
+.navbar {
+  background-color: #232536;
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 140px;
+    margin-left: 83px;
+
+    .logo__finsweet {
+      color: white;
+      font-size: 28px;
+    }
+  }
+
+  .menu {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      .menu__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 305px;
+        margin-right: 32px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+
+      .menu__link {
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .menu__footer {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 12px;
+        width: 179px;
+        height: 56px;
+        align-items: center;
+        padding: 16px 48px;
+        background-color: white;
+
+        .menu__button {
+          color: #232536;
+          width: 83px;
+          height: 24px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
 }
 
-.mainblock__img{
-background-image: url('../img/mainblock/bg.png');
-position: absolute;
-z-index: 1;
-width: 1440px;
-height: 720px;
-right: 0px;
-top: 80px;
+
+
+.mainblock__img {
+  background-image: url('../img/mainblock/bg.png');
+  position: absolute;
+  z-index: 1;
+  width: 1440px;
+  height: 720px;
+  right: 0px;
+  top: 80px;
 }
-.mainblock__content{
+
+.mainblock__content {
   position: absolute;
   z-index: 2;
   display: flex;
-  justify-content: left;
-}
-
-.mainblock__title{
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 3px;
-text-transform: uppercase;
-color: white;
-}
-.mainblock_subtitle{
-font-size: 56px;
-line-height: 64px;
-letter-spacing: -2px;
-color: white;
-}
-.author_and_date{
-  font-size: 16px;
-  color: white;
-  line-height: 28px;
-}
-.about_the_project{
-  font-size: 16px;
-  color: white;
-  line-height: 28px;
-}
-.mainblock__footer{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 48px;
-  gap: 12px;
-  position: absolute;
-  width: 204px;
-  height: 56px;
+  justify-content: space-between;
+  width: 804px;
+  height: 400px;
   left: 80px;
-  top: 552px;
-  background: #FFD050;
-  font-size: 18px;
+  top: 208px;
 
+  .mainblock__text {
+    color: white;
+
+    .title {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 3px;
+      width: 222px;
+      height: 20px;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+
+      .coloretex_title {
+        font-weight: 700;
+      }
+    }
+
+    .subtitle {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: -2px;
+      width: 803px;
+      height: 128px;
+      margin-bottom: 24px;
+    }
+
+    .author_and_date {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      width: 243px;
+      height: 28px;
+      margin-bottom: 16px;
+
+      .colortext_author {
+        color: #FFD050;
+      }
+    }
+
+    .about_the_project {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      width: 599px;
+      height: 56px;
+      margin-bottom: 48px;
+    }
+
+    .mainblck__footer {
+      background-color: #FFD050;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 16px 48px;
+      gap: 12px;
+      width: 204px;
+
+      .mainblock__button {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #232536;
+      }
+    }
+  }
+}
+
+.featured_posts {
+ 
 }
