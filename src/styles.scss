@@ -207,7 +207,7 @@ body {
     .post_wrapper {
       width: 733px;
       height: 724px;
-      border: 1px solid #6D6E76;
+      border: 1px solid rgba($color: #6D6E76, $alpha: 0.3);
     }
 
     .img_post_wrapper {
@@ -521,11 +521,12 @@ body {
     .item {
       width: 296px;
       height: 228px;
-      border: 1px solid #6D6E76;
-
+      border: 1px solid rgba($color: #6D6E76, $alpha: 0.3);
+      transition: all 350ms ease-in-out;
 
       .item_img {
         width: 48px;
+        padding: 12px;
         background-color: #FBF6EA;
         border-radius: 12px;
         margin-top: 34px;
