@@ -654,3 +654,133 @@ body {
   }
 
 }
+
+.list_of_authors {
+  width: 1280px;
+  height: 420px;
+  margin-top: 128px;
+  margin-left: 80px;
+
+
+  .list_of_authors_title {
+    width: 231px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-left: 515px;
+    margin-right: 534px;
+  }
+
+  .list_of_authors_items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+
+    .list_of_authors_item {
+      width: 296px;
+      height: 324px;
+      background: #F4F4F4;
+
+      .list_of_authors_item_img {
+        width: 128px;
+        height: 128px;
+        margin-top: 40px;
+        margin-right: 84px;
+        margin-left: 84px;
+      }
+
+      .list_of_authors_item_name {
+        width: 210px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #232536;
+        margin-top: 20px;
+        margin-right: 76px;
+        margin-left: 70px;
+        text-align: left;
+
+      }
+
+      .list_of_authors_item_job_title {
+        width: 240px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #6D6E76;
+        margin-right: 28px;
+        margin-left: 28px;
+        text-align: center;
+
+      }
+
+      .icon {
+        margin-top: 20px;
+        margin-right: 63px;
+        margin-left: 63px;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+.logo_component {
+  width: 1237px;
+  height: 52px;
+  margin-top: 96px;
+  margin-left: 94px;
+  display: flex;
+  margin-bottom: 96px;
+
+  .featured_in {
+    width: 136px;
+    height: 52px;
+
+    .featured_in_title {
+      width: 83.83px;
+      height: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #6D6E76;
+      opacity: 0.6;
+      margin-right: 52px;
+    }
+
+    .featured_in_subtitle {
+      width: 136px;
+      height: 32px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #6D6E76;
+
+    }
+  }
+
+  .logo_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1015px;
+    height: 52px;
+    margin-left: 86px;
+    opacity: 0.8;
+
+
+    .logo_wrapper_img {
+      width: 1015px;
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
