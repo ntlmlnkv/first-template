@@ -357,13 +357,31 @@ body {
   background: #FBF6EA;
 }
 
+.pattern {
+  height: 23px;
+  width: 1345px;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -14.5px;
+  margin-left: 15px;
+
+  .pattern_one {
+    width: 865px;
+    height: 23px;
+    background: #FFD050;
+  }
+
+  .pattern_two {
+    width: 210px;
+    height: 23px;
+    background: #592EA9;
+  }
+}
 
 .about_us_and_our_mission {
   width: 1280px;
   height: 523px;
-  left: 80px;
-  top: 1860px;
-  margin-top: 0px;
   margin-left: 80px;
   margin-right: 80px;
   display: flex;
@@ -473,3 +491,166 @@ body {
   }
 }
 
+.Choose_a_catagory {
+  width: 1280px;
+  height: 324px;
+  margin: 128px 80px 128px 80px;
+  height: 228px;
+
+  .chose_a_catagory_title {
+    width: 302px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-left: 489px;
+    margin-right: 489px;
+
+  }
+
+  .cateories {
+    width: 1280px;
+    height: 228px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+
+    .item {
+      width: 296px;
+      height: 228px;
+      border: 1px solid #6D6E76;
+
+
+      .item_img {
+        width: 48px;
+        background-color: #FBF6EA;
+        border-radius: 12px;
+        margin-top: 34px;
+        margin-right: 216px;
+        margin-left: 32px;
+      }
+
+      .item_title {
+        width: 147px;
+        height: 40px;
+        right: 197px;
+        top: 2703px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #232536;
+        margin-bottom: 4px;
+        margin-left: 32px;
+
+      }
+
+      .item_text {
+        width: 232px;
+        height: 56px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6D6E76;
+        margin-left: 32px;
+      }
+
+    }
+  }
+
+
+}
+
+.item:hover {
+  background: #FFD050;
+}
+
+.special_post {
+  width: 1280px;
+  height: 705px;
+  margin: 128px 80px;
+  display: flex;
+  flex-direction: row-reverse;
+
+
+  .special_post_img {
+    background-image: url(../img/special_post/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+    width: 949px;
+    height: 705px;
+  }
+
+  .content {
+    width: 706px;
+    height: 584px;
+    background-color: white;
+    margin-top: 121px;
+
+    .content_title {
+      width: 189px;
+      height: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #232536;
+      margin: 80px 437px 24px 80px;
+
+    }
+
+    .content_subtitle {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: -2px;
+      color: #232536;
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 16px;
+    }
+
+    .content_text {
+      width: 546px;
+      height: 84px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #6D6E76;
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 32px;
+    }
+
+    .content_button {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 16px 48px;
+      gap: 12px;
+      width: 269px;
+      height: 56px;
+      left: 734px;
+      top: 3532px;
+      background: #FFD050;
+      margin-left: 80px;
+
+
+      .content_button_read_more {
+        width: 173px;
+        height: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #232536;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+  }
+
+}
