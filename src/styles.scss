@@ -784,3 +784,141 @@ body {
     }
   }
 }
+
+.testimonials {
+  width: 1280px;
+  height: 464px;
+  background: #FBF6EA;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 128px;
+  position: relative;
+
+  .heading {
+    width: 349px;
+    height: 200px;
+    color: #232536;
+    margin: 92px 80px 172px 112px;
+
+    .heading_title {
+      width: 153px;
+      height: 20px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-right: 196px;
+      margin-bottom: 12px;
+
+    }
+
+    .heading_subtitle {
+      width: 345px;
+      height: 96px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -2px;
+      margin-bottom: 16px;
+    }
+
+    .heading_text {
+      width: 349px;
+      height: 56px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .line_block {
+    border-left: 1px solid #6D6E76;
+    height: 310px;
+    opacity: 0.4;
+    margin-top: 80px;
+    margin-bottom: 74px;
+
+  }
+
+  .messages {
+    width: 469px;
+    height: 128px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #232536;
+    margin-top: 80px;
+    margin-right: 174px;
+    margin-left: 96px;
+    margin-bottom: 121px;
+    display: flex;
+  }
+
+  .profile {
+    width: 257px;
+    height: 60px;
+    margin-left: 96px;
+    display: flex;
+
+    .profile_picture {
+      width: 48px;
+      height: 48px;
+    }
+
+    .profile_name {
+      width: 193px;
+      height: 32px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #232536;
+      margin-left: 16px;
+
+      .profile_place {
+        width: 114px;
+        height: 28px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6D6E76;
+      }
+    }
+  }
+
+  .profile_button_one {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 197px;
+    top: 329px;
+    border-radius: 50%;
+    background-color: white;
+
+    .pfeil_one {
+      width: 20px;
+      margin: 15px 13.71px 24px 14.6px;
+
+    }
+
+  }
+
+  .profile_button_two {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: 111px;
+    top: 329px;
+    background: #232536;
+    border-radius: 50%;
+
+    .pfeil_two {
+      width: 26px;
+      margin: 22px 18px 30px 18px;
+    }
+
+
+  }
+}
